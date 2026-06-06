@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    --cor-primaria: #121358;
+    --cor-secundaria: #FFC94D;
+    --cor-terciaria: #FA6781;
+    --font-principal: "Montserrat", sans-serif;
+    --font-secundaria: "Poppins", sans-serif;
+}
+.navprincipal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--cor-secundaria);
+}
+.navprincipal button{
+    background-color:  var(--cor-terciaria);
+    height:40px;
+    width: 150px;
+    margin-right: 0.7rem;
+    cursor: pointer;
+}
+.navprincipal ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navprincipal a{
+    outline-color: transparent;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+}
+.navprincipal button:visited ,
+.navprincipal button:hover ,
+.navprincipal button:active{
+    background-color:#fa66cb;
+}
+section{
+    background-color: var(--cor-primaria);
+    display: flex;
+    justify-content: space-between;
+}
+.textoherosection{
+    font-family: var(--font-secundaria);
+    color: var(--cor-secundaria);
+    margin-left: 0.7rem;
+    line-height: 1.7rem;
+    padding-top: 2rem;
+}
+.imgherosection{
+    margin-right: 0.3rem;
+}
+.imgherosection img{
+    height: 400px;
+    width: 400px;
+    border-radius: 30% 0 30% 30%;
+    object-fit: cover;
+}
+section button{
+     background-color:  var(--cor-terciaria);
+    height:40px;
+    width: 150px;
+    margin-left: 0.2rem;
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+section a{
+    outline-color: transparent;
+    text-decoration: none;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+}
+section button:visited,
+section button:hover,
+section button:active{
+    background-color:#fa66cb;
+}
