@@ -6,6 +6,10 @@
     --font-principal: "Montserrat", sans-serif;
     --font-secundaria: "Poppins", sans-serif;
 }
+body{
+    margin: 0;
+    padding: 0;
+}
 .navprincipal{
     display: flex;
     justify-content: space-between;
@@ -54,7 +58,7 @@ section{
 }
 .imgherosection img{
     height: 400px;
-    width: 400px;
+    width: 450px;
     border-radius: 30% 0 30% 30%;
     object-fit: cover;
 }
@@ -76,4 +80,38 @@ section button:visited,
 section button:hover,
 section button:active{
     background-color:#fa66cb;
+}
+.categorias{ 
+    padding-top: 2rem;
+    background-color: var(--cor-primaria);
+}
+.cabecalho h2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    background-color: var(--cor-primaria);
+}
+.cards{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background-color: var(--cor-primaria);
+}
+.card img{
+    height: 110px;
+    width: 110px;
+    margin: 0.7rem;
+      border-radius: 30% 30% 30% 30%;
+    object-fit: cover;
+}
+.card p{
+     color: var(--cor-secundaria);
+    font-family: var(--font-principal);
+    margin: 1rem;
+    text-align: center;
+    line-height: 0.3rem;
 }
