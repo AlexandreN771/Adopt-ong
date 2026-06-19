@@ -168,3 +168,25 @@ footer a{
 .candidato button:hover{
     background-color: var(--cor-quintaria);
 }
+.doacoes{
+    margin: 0;
+    padding: 0;
+    background-color: var(--cor-primaria);
+}
+.doacoes h1 ,
+.doacoes h3 ,
+.doacoes p{
+    margin-left: 1rem;
+    color: var(--cor-secundaria);
+   line-height: 1;
+}
+.doacoes img{
+    height: 150px;
+    width: 150px;
+    margin-left: 2rem;
+}
+.doacoes p{
+  line-height: 1;
+  font-size: 1.2rem;
+  margin-bottom: ;
+}
