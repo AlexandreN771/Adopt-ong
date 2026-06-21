@@ -8,6 +8,9 @@
     --font-principal: "Montserrat", sans-serif;
     --font-secundaria: "Poppins", sans-serif;
 }
+h1, h2, h3, p {
+    margin: 0;
+}
 body{
     margin: 0;
     padding: 0;
@@ -31,7 +34,6 @@ body{
     gap: 1rem;
     list-style: none;
 }
-
 .navprincipal a{
     outline-color: transparent;
     text-decoration: none;
@@ -43,7 +45,7 @@ body{
 .navprincipal button:active{
     background-color:var(--cor-quintaria);
 }
-section{
+.hero{
     background-color: var(--cor-primaria);
     display: flex;
     justify-content: space-between;
@@ -64,7 +66,7 @@ section{
     border-radius: 30% 0 30% 30%;
     object-fit: cover;
 }
-section button{
+.hero button{
      background-color:  var(--cor-terciaria);
     height:40px;
     width: 150px;
@@ -72,15 +74,15 @@ section button{
     cursor: pointer;
     margin-bottom: 1rem;
 }
-section a{
+.hero a{
     outline-color: transparent;
     text-decoration: none;
     color: var(--cor-primaria);
     font-family: var(--font-principal);
 }
-section button:visited,
-section button:hover,
-section button:active{
+.hero button:visited,
+.hero button:hover,
+.hero button:active{
     background-color: var(--cor-quintaria);
 }
 .categorias{ 
@@ -124,9 +126,10 @@ section button:active{
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(230px, 1fr));
     gap: 1rem;
+    max-width: 100%;
 }
 .candidato{
-    border: 1px solid var(--cor-quartenaria);
+    border: 1px solid;
     border-radius: 0.7rem;
     border-color: var(--cor-secundaria);
     display: grid;
@@ -188,5 +191,61 @@ footer a{
 .doacoes p{
   line-height: 1;
   font-size: 1.2rem;
-  margin-bottom: ;
+}
+.voluntario h2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    background-color: var(--cor-secundaria);
+}
+.voluntario p{
+    margin: 0;
+    padding: 0;
+    font-size: 0.9rem;
+    color: var(--cor-primaria);
+    font-family: var(--font-principal);
+    background-color: var(--cor-secundaria);
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor-secundaria);
+    flex-wrap: wrap;
+}
+label{
+    color: var(--cor-primaria);
+    display: block;
+    font: 1rem,  var(--font-principal);
+}
+input, 
+label{
+    margin: 0.4rem;
+    font-size: 1.3rem;
+    height: 1.3rem;
+}
+.rodape li, 
+.rodape a{
+ list-style: none;
+ font-family: var(--font-principal);
+ cursor: pointer;
+}
+.rodape img{
+    max-width: 80px;
+    height: auto;
+}
+.rodape a:hover{
+color: var(--cor-quintaria);
+text-decoration: underline;
+}
+.rodape h4,
+.rodape h3{
+color:var(--cor-primaria);
+margin: 0.4rem;
+}
+.politicas{
+display: grid;
+grid-template-columns: 1fr;
 }
