@@ -85,25 +85,25 @@ body{
 .hero button:active{
     background-color: var(--cor-quintaria);
 }
-.categorias{ 
-    padding-top: 2rem;
-    background-color: var(--cor-primaria)
-}
 .cabecalho h2{
     margin: 0;
     padding: 0;
     width: 100%;
     text-align: center;
-    color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     font-family: var(--font-principal);
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+}
+.categorias{
+    padding-top: 0.5rem;
+    background-color: var(--cor-secundaria);
 }
 .cards{
     margin: 0 auto;
     display: flex;
     justify-content: center;
     gap: 2rem;
-    background-color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
 }
 .card img{
     height: 110px;
@@ -113,15 +113,18 @@ body{
     object-fit: cover;
 }
 .card p{
-     color: var(--cor-secundaria);
+    color: var(--cor-primaria);
     font-family: var(--font-principal);
     margin: 1rem;
     text-align: center;
     line-height: 0.3rem;
+    padding-bottom: 0.5rem;
 }
 .candidatos{
     margin: 0;
     padding: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     background-color: var(--cor-primaria);
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(230px, 1fr));
@@ -136,17 +139,21 @@ body{
     grid-template-rows: max-content 200px 1fr;
 }
 .candidato img{
-   object-fit: cover;
+   display: flex;
+   justify-self: center;
+   object-position: center;
    height: 100%;
    width: 80%;
 }
 .candidato h3{
     color: var(--cor-secundaria);
+    font-family: var(--font-principal);
     text-align: center;
     margin: 0;
     padding: 0.5rem;
 }
 .candidato ul{
+    font-family: var(--font-secundaria);
     padding: 0.5rem;
     list-style: none;
     color: var(--cor-secundaria);
@@ -176,21 +183,30 @@ footer a{
     padding: 0;
     background-color: var(--cor-primaria);
 }
-.doacoes h1 ,
+.doacoes h1{
+    color: var(--cor-secundaria);
+    text-align: center;
+    font-family: var(--font-principal);
+}
 .doacoes h3 ,
 .doacoes p{
     margin-left: 1rem;
+    font-family: var(--font-secundaria);
     color: var(--cor-secundaria);
-   line-height: 1;
+    line-height: 1.7;
 }
 .doacoes img{
+    padding-top: 1rem;
+    display: flex;
+    justify-self: center;
     height: 150px;
     width: 150px;
     margin-left: 2rem;
 }
 .doacoes p{
-  line-height: 1;
-  font-size: 1.2rem;
+  line-height: 1.5;
+  font-size: 1.1rem;
+  padding-bottom: 1rem;
 }
 .voluntario h2{
     margin: 0;
