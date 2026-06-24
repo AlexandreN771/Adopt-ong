@@ -226,24 +226,10 @@ footer a{
     background-color: var(--cor-secundaria);
 }
 footer{
-    display: flex;
-    justify-content: space-between;
     background-color: var(--cor-secundaria);
     flex-wrap: wrap;
 }
-label{
-    color: var(--cor-primaria);
-    display: block;
-    font: 1rem,  var(--font-principal);
-}
-input, 
-label{
-    margin: 0.4rem;
-    font-size: 1.3rem;
-    height: 1.3rem;
-}
-.rodape li, 
-.rodape a{
+.rodape li{
  list-style: none;
  font-family: var(--font-principal);
  cursor: pointer;
@@ -251,17 +237,25 @@ label{
 .rodape img{
     max-width: 80px;
     height: auto;
+    display: flex;
+    justify-self: end;
 }
 .rodape a:hover{
 color: var(--cor-quintaria);
 text-decoration: underline;
 }
-.rodape h4,
-.rodape h3{
+.rodape h3 ,
+.rodape a
+{
+font-family: var(--font-principal);
 color:var(--cor-primaria);
-margin: 0.4rem;
+margin: 0.9rem;
+padding-top: 0;
 }
-.politicas{
-display: grid;
-grid-template-columns: 1fr;
+.redes{
+    display: flex;
+    column-gap: 0.5rem;
+}
+.rodape h4{
+    margin-bottom: 0;
 }
