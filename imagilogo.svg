@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg width="100%" height="100%" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
-    <g>
+<svg width="100%" height="100%" viewBox="0 0 290 372" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g transform="matrix(1,0,0,1,-93.427295,-271.65305)">
         <g transform="matrix(0.944044,0,0,0.944044,-148.229318,15.643377)">
             <g>
                 <g transform="matrix(0.470621,-0.045547,0.082474,0.852173,153.76099,93.454011)">
@@ -47,11 +47,6 @@
                     <ellipse cx="154.361" cy="438.271" rx="6.75" ry="7.2" style="fill:rgb(4,1,0);"/>
                 </g>
             </g>
-        </g>
-        <g transform="matrix(0.878955,0,0,0.878955,-22.944559,92.942566)">
-            <g transform="matrix(197.405354,0,0,197.405354,1088.142043,616.998736)">
-            </g>
-            <text x="452.069px" y="616.999px" style="font-family:'TimesNewRomanPS-ItalicMT', 'Times New Roman', serif;font-style:italic;font-size:197.405px;fill:rgb(4,1,0);">ADOPT</text>
         </g>
     </g>
 </svg>
