@@ -123,7 +123,7 @@ body{
     height: 110px;
     width: 110px;
     margin: 0.7rem;
-      border-radius: 30% 30% 30% 30%;
+    border-radius: 30% 30% 30% 30%;
     object-fit: cover;
 }
 .card p{
@@ -139,6 +139,7 @@ body{
     padding: 0;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    padding-right: 0.5rem;
     background-color: var(--cor-primaria);
     display: grid;
     grid-template-columns: repeat(auto-fill , minmax(230px, 1fr));
@@ -247,22 +248,22 @@ footer{
     background-color: var(--cor-secundaria);
 }
 .rodape li{
- padding-top: 1rem;
- list-style: none;
- font-family: var(--font-principal);
- cursor: pointer;
+    padding-top: 1rem;
+    list-style: none;
+    font-family: var(--font-principal);
+    cursor: pointer;
 }
 .rodape a:hover{
-color: var(--cor-quintaria);
-text-decoration: underline;
+    color: var(--cor-quintaria);
+    text-decoration: underline;
 }
 .rodape h3 ,
 .rodape a
 {
-font-family: var(--font-principal);
-color:var(--cor-primaria);
-margin: 0.9rem;
-padding-top: 0;
+    font-family: var(--font-principal);
+    color:var(--cor-primaria);
+    margin: 0.9rem;
+    padding-top: 0;
 }
 .redes{
     display: flex;
@@ -278,5 +279,35 @@ padding-top: 0;
 .logorodape img{
     margin: 0.9rem;
     height: auto;
-    width: 150px;
+    width: 150px;}
+.rodape h4{
+    font-size: 0.8rem;
+    font-family: var(--font-principal);
+    color:var(--cor-primaria);
+    display: flex;
+    align-self: last baseline;
+}
+@media (max-width:768px){
+.candidatos{
+    padding-right:0.5em;
+}
+.doacoes h1 ,
+.doacoes h3{
+    padding-right: 0.3rem;
+}
+.navprincipal button, 
+.navprincipal a{
+  margin-left: 0.4rem;
+}
+.hero button ,
+.hero a{
+    margin-bottom: 2rem;}
+.redes a{
+    margin-top: 5rem;
+}
+.politicas a{
+ display: flex;
+ flex-direction: row;
+ row-gap: 0.1rem;
+}
 }
