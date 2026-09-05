@@ -308,6 +308,5 @@ footer{
 .politicas a{
  display: flex;
  flex-direction: row;
- row-gap: 0.1rem;
 }
 }
